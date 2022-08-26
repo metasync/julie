@@ -529,7 +529,7 @@
     <!-- dependencies -->
     <jackson.version>[2.12.6, 2.12.7)</jackson.version>
     <log4j.version>2.17.1</log4j.version>
-    <zookeeper.version>3.5.7</zookeeper.version>
+    <zookeeper.version>3.5.10</zookeeper.version>
     <commons.version>1.4</commons.version>
     <mockito.version>3.6.0</mockito.version>
     <junit.version>4.13.1</junit.version>
@@ -537,12 +537,12 @@
     <jedis.version>3.2.0</jedis.version>
     <confluent.version>6.1.0</confluent.version>
     <confluent-ce.version>6.1.0-ce</confluent-ce.version>
-    <avro.version>1.9.2</avro.version>
+    <avro.version>1.11.0</avro.version>
     <jersey.version>2.22.2</jersey.version>
     <hamcrest.version>2.2</hamcrest.version>
     <assertj.version>3.15.0</assertj.version>
-    <jinjava.version>2.5.4</jinjava.version>
-    <aws.java.sdk.version>2.16.31</aws.java.sdk.version>
+    <jinjava.version>2.5.6</jinjava.version>
+    <aws.java.sdk.version>2.17.207</aws.java.sdk.version>
     <gcp.java.sdk.version>19.2.1</gcp.java.sdk.version>
     <ksqldb.version>0.17.0</ksqldb.version>
     <typesafe.version>1.4.0</typesafe.version>
@@ -680,6 +680,7 @@
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-storage</artifactId>
+      <version>2.6.1</version>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
